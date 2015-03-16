@@ -46,12 +46,12 @@ let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 set completeopt=menuone,menu,longest
 
 "Replace tab and eol with special chars to make it more readable
-set listchars=tab:▸\ ,trail:·
-set list
+"set listchars=tab:▸\ ,trail:·
+"set list
 
 "Background beauty
-colors molokai 
-set background=dark
+"colors molokai 
+"set background=dark
 
 
 if v:lang =~ "utf8$" || v:lang =~ "UTF-8$"

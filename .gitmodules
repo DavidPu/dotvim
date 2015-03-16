@@ -1,0 +1,57 @@
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = http://github.com/tpope/vim-fugitive.git
+[submodule "bundle/The-NERD-tree"]
+	path = bundle/The-NERD-tree
+	url = https://github.com/vim-scripts/The-NERD-tree.git
+[submodule "bundle/minibufexpl"]
+	path = bundle/minibufexpl
+	url = https://github.com/vim-scripts/minibufexpl.vim.git
+[submodule "bundle/pythoncomplete"]
+	path = bundle/pythoncomplete
+	url = https://github.com/vim-scripts/pythoncomplete.git
+[submodule "bundle/OmniCppComplete"]
+	path = bundle/OmniCppComplete
+	url = https://github.com/vim-scripts/OmniCppComplete.git
+[submodule "bundle/stl-improved"]
+	path = bundle/stl-improved
+	url = https://github.com/vim-scripts/STL-improved.git
+[submodule "bundle/python"]
+	path = bundle/python
+	url = https://github.com/vim-scripts/python.vim.git
+[submodule "bundle/molokai"]
+	path = bundle/molokai
+	url = https://github.com/vim-scripts/molokai.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "submodule/Tabular"]
+	path = submodule/Tabular
+	url = https://github.com/vim-scripts/Tabular.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = https://github.com/vim-scripts/surround.vim.git
+[submodule "bundle/SrcExpl"]
+	path = bundle/SrcExpl
+	url = https://github.com/wesleyche/SrcExpl.git
+[submodule "bundle/Trinity"]
+	path = bundle/Trinity
+	url = https://github.com/wesleyche/Trinity.git
+[submodule "bundle/cscope_maps"]
+	path = bundle/cscope_maps
+	url = https://github.com/chazy/cscope_maps.git
+[submodule "bundle/gtags-cscope"]
+	path = bundle/gtags-cscope
+	url = https://github.com/DavidPu/gtags-cscope.git
+[submodule "bundle/vimscript-taglilst"]
+	path = bundle/vimscript-taglilst
+	url = https://github.com/DavidPu/vimscript-taglilst.git
+[submodule "vimscript-taglilst"]
+	path = vimscript-taglilst
+	url = https://github.com/DavidPu/vimscript-taglilst.git
+[submodule "bundle/Tabular"]
+	path = bundle/Tabular
+	url = https://github.com/vim-scripts/Tabular.git
