@@ -183,6 +183,8 @@ let OmniCpp_ShowPrototypeInAbbr = 1 " show function prototype (i.e. parameters) 
 set tags+=~/.vim/tags/stl3.3.tags
 set tags+=~/.vim/tags/common.tags
 
+set title
+
 " keymaps
 imap <F1> <Esc>
 
