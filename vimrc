@@ -188,3 +188,13 @@ set tags+=~/.vim/tags/common.tags
 imap <F1> <Esc>
 
 "let GtagsCscope_Auto_Load = 1
+
+au BufNewFile,BufRead COMMIT_EDITMSG set spell
+hi clear SpellBad
+hi SpellBad cterm=underline
+hi clear SpellCap
+hi SpellCap cterm=underline
+hi clear SpellRare
+hi SpellRare cterm=underline
+hi clear SpellLocal
+hi SpellLocal cterm=underline
