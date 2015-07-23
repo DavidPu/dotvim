@@ -51,7 +51,8 @@ set completeopt=menuone,menu,longest
 
 "Background beauty
 "colors molokai 
-"set background=dark
+
+set background=dark
 
 
 if v:lang =~ "utf8$" || v:lang =~ "UTF-8$"
