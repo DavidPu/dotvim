@@ -1,0 +1,17 @@
+#############################################################################
+##
+## .inputrc
+##
+## Author: Simos Xenitellis (simos.lists@googlemail.com)
+##
+
+set match-hidden-files off
+set page-completions off
+set completion-query-items 350
+set show-all-if-ambiguous on
+set completion-ignore-case on
+
+set editing-mode vi
+set keymap vi-command
+
+# "p": history-search-backward
