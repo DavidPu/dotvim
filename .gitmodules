@@ -7,18 +7,12 @@
 [submodule "bundle/minibufexpl"]
 	path = bundle/minibufexpl
 	url = https://github.com/vim-scripts/minibufexpl.vim.git
-[submodule "bundle/pythoncomplete"]
-	path = bundle/pythoncomplete
-	url = https://github.com/vim-scripts/pythoncomplete.git
 [submodule "bundle/OmniCppComplete"]
 	path = bundle/OmniCppComplete
 	url = https://github.com/vim-scripts/OmniCppComplete.git
 [submodule "bundle/stl-improved"]
 	path = bundle/stl-improved
 	url = https://github.com/vim-scripts/STL-improved.git
-[submodule "bundle/python"]
-	path = bundle/python
-	url = https://github.com/vim-scripts/python.vim.git
 [submodule "bundle/molokai"]
 	path = bundle/molokai
 	url = https://github.com/vim-scripts/molokai.git
@@ -49,9 +43,9 @@
 [submodule "bundle/vimscript-taglilst"]
 	path = bundle/vimscript-taglilst
 	url = https://github.com/DavidPu/vimscript-taglilst.git
-[submodule "vimscript-taglilst"]
-	path = vimscript-taglilst
-	url = https://github.com/DavidPu/vimscript-taglilst.git
 [submodule "bundle/Tabular"]
 	path = bundle/Tabular
 	url = https://github.com/vim-scripts/Tabular.git
+[submodule "bundle/python-mode"]
+	path = bundle/python-mode
+	url = https://github.com/klen/python-mode.git 
