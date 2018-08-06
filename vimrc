@@ -1,6 +1,6 @@
 "Pathogen.vim setup
+set nocp
 execute pathogen#infect()
-
 " filetype plugin indent on
 " syntax enable
 " set ignorecase
@@ -114,16 +114,16 @@ if &t_Co > 2 || has("gui_running")
   hi Normal     gui=none guifg=gray guibg=black
   hi Visual     gui=none guifg=black guibg=white
   set guioptions-=T
-  set guioptions-=m
-  set guioptions-=r
-  set guioptions-=L
-  set guifont=Monospace\ 10
+"  set guioptions-=m
+"  set guioptions-=r
+"  set guioptions-=L
+  let &guifont='Source Code Pro medium 11'
   
 endif
 
-if has("gui_running")
-  colorscheme solarized
-endif
+"if has("gui_running")
+"  colorscheme solarized
+"endif
 
 if &term=="xterm"
      set t_Co=8
@@ -313,4 +313,13 @@ let g:pymode_rope_lookup_project = 0
 " 
 " let pyindent_nested_paren="&sw*2"
 " let pyindent_open_paren="&sw*2"
+
+let vim_markdown_preview_github=1
+let vim_markdown_preview_hotkey='<C-m>'
+
+"function! Formatonsave()
+"  let l:formatdiff = 1
+"  py3f ~/.vim/tags/clang-format.py
+"endfunction
+"autocmd BufWritePre *.h,*.c,*.cc,*.cpp call Formatonsave()
 
