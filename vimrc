@@ -240,8 +240,8 @@ endfunction
 " <TAB>: completion.
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 " <C-h>, <BS>: close popup and delete backword char.
-inoremap <expr><C-h> neocomplete#smart_close_popup()."\<C-h>"
-inoremap <expr><BS> neocomplete#smart_close_popup()."\<C-h>"
+" inoremap <expr><C-h> neocomplete#smart_close_popup()."\<C-h>"
+" inoremap <expr><BS> neocomplete#smart_close_popup()."\<C-h>"
 " Close popup by <Space>.
 "inoremap <expr><Space> pumvisible() ? "\<C-y>" : "\<Space>"
 
@@ -323,3 +323,5 @@ let vim_markdown_preview_hotkey='<C-m>'
 "endfunction
 "autocmd BufWritePre *.h,*.c,*.cc,*.cpp call Formatonsave()
 
+map <C-I> :py3f ~/.vim/tags/clang-format.py<cr>
+imap <C-I> <c-o>:py3f ~/.vim/tags/clang-format.py<cr>
