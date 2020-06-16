@@ -20,7 +20,7 @@ execute pathogen#infect()
 " set showmatch
 " set mat=5
 set statusline=%F@%{fugitive#statusline()}
-
+set belloff=all
 
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
