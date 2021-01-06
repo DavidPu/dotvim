@@ -22,6 +22,10 @@ execute pathogen#infect()
 set statusline=%F@%{fugitive#statusline()}
 set belloff=all
 
+set backupdir=/tmp//
+set directory=/tmp//
+set undodir=/tmp//
+
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
