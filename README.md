@@ -8,6 +8,8 @@ git clone --recursive https://github.com/DavidPu/dotvim.git ~/.vim
 cd ~/.vim
 git submodule init
 git submodule update
+
+cd ~/.vim/bundle && git clone --recursive https://github.com/deoplete-plugins/deoplete-jedi && git submodule update --init
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim/gvimrc ~/.gvimrc
 ```
