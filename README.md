@@ -10,6 +10,7 @@ git submodule init
 git submodule update
 
 cd ~/.vim/bundle && git clone --recursive https://github.com/deoplete-plugins/deoplete-jedi && git submodule update --init
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim/gvimrc ~/.gvimrc
 ```
