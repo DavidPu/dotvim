@@ -57,7 +57,7 @@ set completeopt=menuone,menu,longest
 "set list
 
 "Background beauty
-"colors molokai 
+" colors onedark
 
 set background=dark
 
@@ -236,3 +236,5 @@ inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 " let g:pymode_rope_lookup_project = 0
 " call deoplete#enable()
 let g:deoplete#enable_at_startup = 1
+
+colorscheme onedark
