@@ -7,7 +7,7 @@ pip3 install --user --upgrade ${pymodules[@]}
 git clone --recursive https://github.com/DavidPu/dotvim.git ~/.vim
 cd ~/.vim
 git submodule init
-git submodule update
+git submodule update --remote --recursive
 
 cd ~/.vim/bundle && git clone --recursive https://github.com/deoplete-plugins/deoplete-jedi && git submodule update --init
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
