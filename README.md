@@ -7,11 +7,7 @@ cd ~/.vim
 git submodule init
 git submodule update --remote --recursive
 
-python3 -m venv venv
-source venv/bin/activate
-pip3 install pynvim
-pymodules=(pynvim msgpack jedi)
-pip3 install --upgrade ${pymodules[@]}
+(source venv/bin/activate && pip3 install pynvim && pip3 install --upgrade pynvim msgpack jedi)
 
  sed -i 's|/usr/bin/python3|~/.vim/venv/bin/python|g' vimrc
 
